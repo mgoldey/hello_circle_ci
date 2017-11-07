@@ -41,7 +41,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            python manage.py test
+            python hello.py
 
       - store_artifacts:
           path: test-reports
